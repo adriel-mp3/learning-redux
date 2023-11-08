@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redux Básico</title>
+</head>
+
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+</style>
+
+<body>
+  <h1>Aluno</h1>
+  <p id="nome"></p>
+  <div>
+
+    <p id="email" style="display:flex; gap:10px; align-items: center;"></p>
+  </div>
+  <div style="display:flex; gap:10px; align-items: center;">
+    <p id="dias"></p>
+    <button id="incrementar" type="button">+ 1</button>
+    <button id="decrementar" type="button">- 1</button>
+  </div>
+
+  <h2>Aulas</h2>
+  <p id="completas"></p>
+  <h3>Configurações</h3>
+  <div style="margin-top: 20px;">
+    <button>Resetar Aulas</button>
+    <button>Completar todas Aulas</button>
+  </div>
+  <script src="dist/bundle.js"></script>
+</body>
+
+</html>
